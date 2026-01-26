@@ -1,1 +1,2 @@
-src/index.ts
+import rfqRoutes from "./routes/rfq";
+app.use("/api/rfq", rfqRoutes);
